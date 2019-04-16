@@ -1,0 +1,7 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: test-service
+spec:
+  type: ExternalName
+  externalName: baidu.com
